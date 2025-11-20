@@ -1,0 +1,275 @@
+1. Understanding Malware: The Parent Category
+
+Malware (Malicious Software) is any program intentionally designed to harm, exploit, or infiltrate computers or networks.
+
+Types of Malicious Behaviors
+
+Steal data
+
+Damage files
+
+Spy on users
+
+Hijack the system
+
+Control the system remotely
+
+Spread across networks
+
+Encrypt data for ransom
+
+Everything else (virus, worm, trojan, spyware, rootkit, etc.) is a type of malware.
+
+2. Viruses
+
+A virus attaches itself to a legitimate file or program.
+
+How it works
+
+Injects its code into a host file (e.g., .exe, .doc).
+
+When the host runs → virus executes.
+
+It replicates by infecting more files.
+
+It often damages or corrupts files.
+
+Example scenario
+
+You download a cracked game → it contains a virus → when you run it, it infects system files → computer slows, files get corrupted.
+
+3. Worms
+
+A worm is like a virus BUT does NOT need a host file and spreads automatically over networks.
+
+How it works
+
+Exploits vulnerabilities.
+
+Spreads through network ports.
+
+Can infect thousands of machines in minutes.
+
+Example scenario
+
+A worm enters a hospital network → it spreads from one PC to other PCs → shuts down systems → delays patient treatment.
+
+Famous example
+
+ILOVEYOU worm – infected 10 million computers in 2000.
+
+Keyloggers
+
+Keylogger = software or hardware that records whatever you type.
+
+What it steals
+
+Passwords
+
+Credit card numbers
+
+Chat messages
+
+Emails
+
+Real-life example
+
+A keylogger is installed on a public computer → you log in to your bank → attacker gets your username + password.
+
+Phishing
+
+Phishing = tricking the user into giving sensitive information by sending fake emails or websites.
+
+Example
+
+Fake Gmail login page asking you to “verify account”.
+
+Fake bank email: “Your account suspended”.
+
+Techniques used
+
+Social engineering
+
+Spoofed domains e.g., paypaI.com (capital i instead of L)
+
+Smishing
+
+Smishing = phishing through SMS.
+
+Example
+
+You receive:
+“Your bank account will be blocked. Verify now: http://fakebank.in”
+
+Users click → enter OTP → attacker takes control.
+
+Spoofing
+
+Spoofing = pretending to be someone else.
+
+Types
+
+Email spoofing (“your CEO” emails for urgent payment)
+
+Caller ID spoofing
+
+IP spoofing
+
+Website spoofing
+
+Use-case
+
+Attackers spoof Netflix support → ask you to enter payment details.
+
+Spyware
+
+Spyware steals user data silently.
+
+What it spies
+
+Browsing history
+
+Keystrokes
+
+Screenshots
+
+Camera + microphone
+
+Banking information
+
+Scenario
+
+You install a free wallpaper app → it secretly records everything you do.
+
+9. Backdoors
+
+A backdoor is a hidden entry point that bypasses normal authentication.
+
+What it allows
+
+Remote access
+
+Uploading files
+
+Executing commands
+
+Modifying system
+
+Where it exists
+
+Malware-created backdoors
+
+Developer-created backdoors
+
+Misconfigured systems
+
+Scenario
+
+A hacker installs a backdoor → comes anytime → steals files or uploads ransomware.
+
+10. Reverse Shells
+
+A reverse shell is a powerful hacking technique.
+
+How it works
+
+Attacker waits on a listening port (attacker machine).
+
+Victim machine initiates connection to attacker.
+
+Attacker now controls victim command line.
+
+Why it's dangerous?
+
+Firewalls usually allow outbound traffic.
+
+So attacker bypasses network restrictions.
+
+11. Bind Shell
+
+Opposite of reverse shell.
+
+How it works
+
+Attacker forces victim machine to open a port.
+
+Attacker connects to that port.
+
+Gains system shell access.
+
+Difference
+
+Reverse shell = victim → attacker
+
+Bind shell = attacker → victim
+
+12. Adware
+
+Adware shows unwanted ads, popups, banners.
+
+Impact
+
+Slows system
+
+Tracks browsing
+
+Generates revenue for attackers
+
+Scenario
+
+You install a free app → your browser gets full of popups → ads redirect you to malware websites.
+
+Trojans (Trojan Horse)
+
+A trojan looks like a legitimate app but contains hidden malware.
+
+How it spreads
+
+Cracked apps
+
+Fake installers
+
+Game mods
+
+Free software
+
+What it delivers
+
+Spyware
+
+Ransomware
+
+Backdoors
+
+Botnet clients
+
+Rootkits
+
+Rootkits hide malware and provide root-level stealth access.
+
+Capabilities
+
+Hide processes
+
+Hide files
+
+Hide network connections
+
+Bypass security tools
+
+Disable antivirus
+
+Scenario
+
+A hacker installs a rootkit → you never see any malware → attacker silently uses your PC for years.
+
+Types
+
+Kernel-mode rootkit
+
+User-mode rootkit
+
+Firmware rootkit (BIOS-level)
+
+Bootkit (modifies bootloader)
+
