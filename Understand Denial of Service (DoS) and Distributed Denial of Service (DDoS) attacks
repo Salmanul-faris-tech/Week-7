@@ -1,0 +1,31 @@
+1. What is a Denial of Service (DoS) Attack?
+
+A DoS attack is when an attacker intentionally sends too many requests or malformed traffic to a target system (website, server, API) to make it:
+
+Slow
+
+Unresponsive
+
+Completely unavailable
+
+👉 The goal is service disruption, not data theft.
+
+Simple example:
+
+Imagine 1 attacker keeps hitting a website with thousands of requests per second → the server becomes overloaded → real users can’t access it.
+
+What is a Distributed Denial of Service (DDoS) Attack?
+
+A DDoS attack is a DoS attack launched from multiple systems at the same time, often from a botnet.
+
+A botnet = thousands or millions of infected computers (“bots”) controlled by a hacker (command & control server).
+
+Example:
+
+1 hacker controls 20,000 infected devices
+
+Sends traffic simultaneously to the victim
+
+Server crashes instantly
+
+👉 DDoS = higher power, harder to stop.
